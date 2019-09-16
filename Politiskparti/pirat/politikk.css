@@ -1,0 +1,127 @@
+:root{
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding-top: 0;
+   
+    min-height: 100vh;
+}
+
+header{
+    background-color:rgba(0, 0, 0, 0.6);
+    color:whitesmoke;
+    min-height: 4rem;
+    padding: 0.5rem;
+    margin-top: 0px;
+    font-family: Helvetica, sans-serif;
+    font-size: 2rem;
+    justify-self: center;
+    text-align: center;
+  
+}
+
+
+
+a {
+    color: whitesmoke; 
+    margin-right: 5rem;
+    justify-content: center;
+    text-align: right;
+    text-decoration: none;
+    transition: 0.5s;
+   
+    
+  
+}
+
+header a:hover {
+
+    font-size: 4rem;
+}
+
+
+
+    
+main {background-color:rgba(0, 0, 0, 0.0);
+display: grid;
+color:whitesmoke;
+font-family: Helvetica, sans-serif;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 1.6rem;
+grid-auto-rows: 25rem 30rem;
+justify-content: center;
+text-align: center;
+margin-top: 5rem;
+}
+
+h1{
+    justify-content: center;
+    text-align: center;
+    justify-self: auto;
+    font-size: 4rem;
+}
+
+main div {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 4rem;
+    text-align: center;  
+    letter-spacing: 0.2rem;
+   
+}
+
+main div a {
+    display: flex;
+    border-radius: 0.6rem;
+    overflow: hidden;
+    position: relative;
+    padding: 2rem;
+    font-size: 1.2rem;
+    
+   
+}
+
+
+
+
+
+
+footer{
+    color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.1);
+   
+    columns: 3;
+    grid-gap: 3rem;
+    grid-template-columns: 2rem;
+    
+   margin-top: 1.5rem;
+    display: flex;
+    align-content: bottom;
+    justify-content: center;
+}
+
+footer p{
+    font-size: 1.2rem;
+    padding: 2rem;
+}
+#knapp{
+    float: left;
+    margin: 0rem 5rem 0rem 0rem;
+    padding: 0rem;
+ 
+}
+
+header a img{
+    height: 3.5rem;
+    padding: 0.5rem;
+   
+}
+

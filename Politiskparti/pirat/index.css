@@ -1,0 +1,155 @@
+:root{
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+   
+}
+
+body{
+    background-image: url(./bilder/pexels-photo-970517.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    margin: 0;
+    padding-top: 0;
+    min-height: 100vh;
+   
+    
+}
+
+
+
+    header{
+        background-color:rgba(0, 0, 0, 0.6);
+        color:whitesmoke;
+        min-height: 4rem;
+        padding: 0.5rem;
+        margin-top: 0rem;
+        font-family: Helvetica, sans-serif;
+        font-size: 2rem;
+        justify-self: center;
+        text-align: center;
+       
+      
+    }
+
+
+
+a {
+    color: whitesmoke; 
+    margin-right: 5rem;
+    justify-content: center;
+    text-align: right;
+    text-decoration: none;
+    transition: 0.5s;
+   
+    
+  
+}
+
+a:hover {
+  
+    font-size: 4rem;
+}
+
+.button:hover{
+    background-color: black;
+    color: white;
+    
+}
+
+main {
+    background-color:rgba(0, 0, 0, 0.0);
+    color:whitesmoke;
+    font-family: Helvetica, sans-serif;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    height: 75vh;
+    width: 100vh;
+
+   
+   
+    
+     }
+
+     .pirat {
+         top: 5.5rem;
+         height: 10rem;
+         width: 100%;
+         
+       
+          
+        
+         display:flex;
+         align-items: center;
+         justify-content: center;
+
+         margin-bottom: 10rem;
+         margin-top: 10rem;
+      
+
+     }
+
+.pirat h1{
+    color: white;
+    font-weight: 900;
+    text-align: center; 
+    font-size: 6.2rem;
+    letter-spacing: 0.5rem;
+    line-height: 1;
+    
+
+}
+        
+     
+     
+     
+     
+
+    .button {
+        background-color: rgb(255, 254, 254, 0.5);
+        padding: 1.6rem 2rem;
+        border-radius: 3rem;
+        color: black;
+       width: 100%;
+   
+   
+      
+    }
+
+
+
+
+footer{
+    color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.1);
+   
+    columns: 3;
+    grid-gap: 3rem;
+    grid-template-columns: 2rem;
+    
+   margin-top: 1.5rem;
+    display: flex;
+    align-content: bottom;
+    justify-content: center;
+}
+
+footer p{
+    font-size: 1.2rem;
+    padding: 2rem;
+}
+#knapp{
+    float: left;
+}
+
+header a img{
+    height: 3.5rem;
+    padding: 0.5rem;
+   
+}
+
+

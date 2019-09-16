@@ -1,0 +1,152 @@
+:root{
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: grey;
+
+    margin: 0;
+    padding-top: 0;
+   
+}
+
+header{
+    background-color:rgba(0, 0, 0, 0.6);
+    color:whitesmoke;
+  min-height: 4rem;
+    padding: 0.5rem;
+    margin-top: 0rem;
+    font-family: Helvetica, sans-serif;
+    font-size: 2rem;
+    justify-self: center;
+    text-align: center;
+  
+}
+
+
+
+a {
+    color: whitesmoke; 
+    margin-right: 5rem;
+    justify-content: center;
+    text-align: right;
+    text-decoration: none;
+    transition: 0.5s;
+   
+    
+  
+}
+
+h1{
+    font-size: 3.5rem;
+    padding: 1rem;
+}
+
+h2{
+    font-size: 1.2rem;
+}
+
+a:hover {
+   
+    font-size: 4rem;
+}
+
+main {
+    background-color:rgba(0, 0, 0, 0.0);
+    color:whitesmoke;
+    font-family: Helvetica, sans-serif;
+    margin: auto;
+    height: 100vh;
+    
+     }
+
+     .fordeler {
+       padding: 4rem 4rem;
+        display: flex;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+        margin-top: 10rem;
+        
+        justify-content: center;
+
+        bottom: 0;
+    
+    }
+    .fordeler img {
+    
+    width: 10%;
+     }
+
+
+  .bilder {
+
+    margin-top: 8rem;
+
+    border: 0.4rem solid black;
+    height: 20rem;
+    display: flex;
+    
+       }
+
+       .bilde {
+           background-color: grey;
+           border: 01rem solid rgb(119, 119, 117);
+           flex: 1;
+           background-size: cover;
+
+       }
+
+       .bilde:nth-child(1) { background-image: url(/pirat/bilder/giphy.gif); }
+       .bilde:nth-child(2) { background-image: url(/pirat/bilder/mørkt-tastatur.jpeg); }
+       .bilde:nth-child(3) { background-image: url(/pirat/bilder/giphy.gif); }
+       .bilde:nth-child(4) { background-image: url(/pirat/bilder/mørkt-tastatur.jpeg); }
+    
+       .bilde:nth-child(5) { background-image: url(/pirat/bilder/giphy.gif); }
+    
+
+    
+
+
+
+
+       footer{
+        color: whitesmoke;
+        background-color: rgba(255, 255, 255, 0.1);
+       
+        columns: 3;
+        grid-gap: 3rem;
+        grid-template-columns: 2rem;
+        
+       margin-top: 1.5rem;
+        display: flex;
+        align-content: bottom;
+        justify-content: center;
+    }
+    
+    footer p{
+        font-size: 1.2rem;
+        padding: 2rem;
+    }
+#knapp{
+    float: left;
+    margin: 0rem 5rem 0rem 0rem;
+    padding: 0rem;
+ 
+}
+
+
+    
+header a img{
+    height: 3.5rem;
+    padding: 0.5rem;
+   
+}
+
+
+
+

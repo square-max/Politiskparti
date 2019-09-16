@@ -1,0 +1,135 @@
+:root{
+    font-size:62.5%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding-top: 0;
+
+}
+
+header{
+    background-color:rgba(0, 0, 0, 0.6);
+    color:whitesmoke;
+    min-height: 4rem;
+    padding: 0.5rem;
+    margin-top: 0rem;
+    font-family: Helvetica, sans-serif;
+    font-size: 2rem;
+    justify-self: center;
+    text-align: center;
+  
+}
+
+
+
+a {
+    color: whitesmoke; 
+    margin-right: 5rem;
+    justify-content: center;
+    text-align: right;
+    text-decoration: none;
+    transition: 0.5s;
+   
+    
+  
+}
+
+header a:hover {
+    
+    font-size: 4rem;
+}
+
+main {
+    background-color:rgba(0, 0, 0, 0.0);
+    color:whitesmoke;
+    font-family: Helvetica, sans-serif;
+   height: 100vh;
+  
+}
+   
+
+     #img {
+         background-image: url(/pirat/bilder/matrix.jpeg );
+     background-size: cover;
+     flex:1;
+     }
+
+     #grid div {
+       
+        align-items: center;
+        justify-content: center;
+        background-color:rgba(0, 0, 0, 0.6);  
+        padding: 0.5rem;  
+    }
+    
+    #grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 50rem 10rem;
+        grid-gap: 2rem;
+        padding: 2rem;
+        color: white;
+        line-height: 1.5;
+    }
+
+    Div{
+        font-size: 1.5rem;
+    }
+
+p{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+    h1{
+        text-align: center;
+        color: white;
+        font-weight: 600;
+        font-size: 2.5rem;
+    }
+
+
+
+
+    footer{
+        color: whitesmoke;
+        background-color: rgba(255, 255, 255, 0.1);
+       
+        columns: 3;
+        grid-gap: 3rem;
+        grid-template-columns: 2rem;
+        
+       margin-top: 1.5rem;
+        display: flex;
+        align-content: bottom;
+        justify-content: center;
+    }
+    
+    footer p{
+        font-size: 1.2rem;
+        padding: 2rem;
+    }
+
+#knapp{
+    float: left;
+    margin: 0rem 5rem 0rem 0rem;
+    padding: 0rem;
+ 
+}   
+
+header a img{
+    height: 3.5rem;
+    padding: 0.5rem;
+   
+}
+
+
+
